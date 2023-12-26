@@ -1,11 +1,12 @@
 [tool.poetry]
-name = "python-42-template"
+name = "ft_matrix"
 version = "0.1.0"
 description = ""
 authors = ["Sungwoo Park <codest99@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+beartype = "^0.16.4"
 
 [tool.poetry.group.dev.dependencies]
 yapf = "^0.40.1"
