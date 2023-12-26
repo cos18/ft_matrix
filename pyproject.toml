@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-42-template"
+version = "0.1.0"
+description = ""
+authors = ["Sungwoo Park <codest99@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+yapf = "^0.40.1"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
